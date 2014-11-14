@@ -1,0 +1,14 @@
+.zoomable {
+  width: 500px;
+  position: relative;
+}
+
+.zoomable img {
+  width: 100%;
+}
+
+.focus-box {
+  height: 100px;
+  width: 100px;
+  border: medium solid red;
+}
