@@ -5,7 +5,6 @@
 
 .gutter {
   position: relative;
-  height: 60px;
 }
 .gutter-images {
   width: 90%;
@@ -15,8 +14,7 @@
 .gutter-images img {
   width: 20%;
   height: 60px;
-  display: block;
-  float: left;
+
 }
 
 .active img {
@@ -27,9 +25,18 @@
   width: 5%;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .nav:nth-of-type(2) {
-  left: 95%;
+  left: 97%;
+}
+
+
+
+.clearfix {
+  content: "";
+  clear: both;
 }
